@@ -1,5 +1,5 @@
 {
-    "$id" : "https://gitlab.computools.org/castor/castor/snippets/1/raw",
+    "$id" : "https://github.com/dherutskyi/castor_files/raw/master/file.json",
     "type" : "object",
     "title": "Castor File description",
     "properties" : {
