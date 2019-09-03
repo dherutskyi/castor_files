@@ -1,5 +1,5 @@
 {
-    "$id" : "https://github.com/dherutskyi/castor_files/raw/master/file.json",
+    "$id" : "https://github.com/dherutskyi/castor_files/raw/master/file.json#",
     "type" : "object",
     "title": "Castor File description",
     "properties" : {
