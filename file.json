@@ -1,0 +1,13 @@
+{
+    "$id" : "https://gitlab.computools.org/castor/castor/snippets/1/raw",
+    "type" : "object",
+    "title": "Castor File description",
+    "properties" : {
+        "format" : {
+            "type" : "string"
+        },
+        "storage_ref" : {
+            "type" : "string"
+        }
+    }
+}
