@@ -10,7 +10,7 @@
         "storage_ref": "2d802080-d3ca-11e9-bb65-2a2ae2dbcce4"
     },
     "metadata": {
-        "units": "mmm",
+        "units": "mm",
         "volume": 0,
         "bounding_box": [1, 1, 1],
         "materials": [
