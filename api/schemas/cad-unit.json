@@ -14,7 +14,7 @@
       "$ref": "file.json"
     },
     "metadata": {
-      "$ref": "cad-metadata.json"
+      "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/cad-metadata.json"
     }
   },
   "required": [
