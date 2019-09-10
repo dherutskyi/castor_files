@@ -5,22 +5,22 @@
     "title": "The Common Objects definition schema",
     "definitions" : {
         "uuid_identifier" : {
-            "$id" : "#uuid_identifier",
+            "$id" : "#uuid_id",
             "type": "string",
             "pattern": "^[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}$"
         },
         "measure_unit" : {
-            "$id" : "#measure_unit",
+            "$id" : "#measure_un",
             "type": "string",
             "pattern": "^(mm|cm|m|inch|feet)$"
         },
         "vec_3" : {
-            "$id" : "#vec_3",
+            "$id" : "#vec3",
             "type": "array",
             "items": { "type":"integer" }
         },
         "property_item" : {
-            "$id" : "#property_item",
+            "$id" : "#property_it",
             "type" : "object",
             "properties": {
                 "name": {"type": "string"},
