@@ -1,0 +1,29 @@
+{
+    "$schema" : "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/cad-unit.json",
+    "projetc_id": "2d801ae0-d3ca-11e9-bb65-2a2ae2dbcce4",
+    "cad_file": {
+        "format": "iges",
+        "storage_ref": "2d801df6-d3ca-11e9-bb65-2a2ae2dbcce4"
+    },
+    "intermediate_cad_file": {
+        "format": "stl",
+        "storage_ref": "2d802080-d3ca-11e9-bb65-2a2ae2dbcce4"
+    },
+    "metadata": {
+        "units": "mm",
+        "volume": 0,
+        "bounding_box": [1, 1, 1],
+        "materials": [
+            {
+                "id": 1,
+                "name": "material_name_string",
+                "props": [
+                    {
+                        "name": "prop_name",
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    }
+}
