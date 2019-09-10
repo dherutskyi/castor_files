@@ -10,7 +10,7 @@
         "bounding_box": {"$ref" : "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/common.json#/definitions/vec_3"},
         "materials" : {
             "type" : "array",
-            "items" : { "$ref" : "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/material.json"}
+            "items" : { "$ref" : "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/material.json#"}
         }
     }
 }

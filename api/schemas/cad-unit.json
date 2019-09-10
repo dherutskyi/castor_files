@@ -8,13 +8,13 @@
       "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/common.json#/definitions/uuid_identifier"
     },
     "cad_file": {
-      "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/file.json"
+      "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/file.json#"
     },
     "intermediate_cad_file": {
-      "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/file.json"
+      "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/file.json#"
     },
     "metadata": {
-      "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/cad-metadata.json"
+      "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/cad-metadata.json#"
     }
   },
   "required": [
