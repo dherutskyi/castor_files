@@ -7,6 +7,6 @@
     "properties" : {
         "id": {"type" :"integer"},
         "name": {"type": "string"},
-        "props": {"type": "array", "items" : {"$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/common.json#property_item"}}
+        "props": {"type": "array", "items" : {"$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/common.json#/definitions/property_item"}}
     }
 }
