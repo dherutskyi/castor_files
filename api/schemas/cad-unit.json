@@ -48,7 +48,7 @@
     }
   },
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://castor3d.com/api/schemas/cad-unit.json",
+  "$id": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/cad-unit.json",
   "type": "object",
   "title": "The Root Schema",
   "properties": {
