@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/file.json",
+    "type": "object",
+    "title": "The CAD File Schema",
+    "type" : "object",
+    "properties" : {
+        "format": {"type" : "string"},
+        "storage_ref": {"$ref" : "common.json#/uuid_identifier"}
+    },
+    "required":["format", "storage_ref"]
+}

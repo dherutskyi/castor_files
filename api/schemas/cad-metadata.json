@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/cad-metadata.json",
+    "type": "object",
+    "title": "The CAD Metadata Schema",
+    "type" : "object",
+    "properties" : {
+        "units": {"$ref" : "common.json#measure_unit"},
+        "volume": {"type" : "integer"},
+        "bounding_box": {"$ref" : "common.json#vec_3"},
+        "materials" : {
+            "type" : "array",
+            "items" : { "$ref" : "material.json"}
+        }
+    }
+}

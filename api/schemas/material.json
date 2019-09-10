@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/material.json",
+    "type": "object",
+    "title": "The CAD Material Schema",
+    "type" : "object",
+    "properties" : {
+        "id": {"type" :"integer"},
+        "name": {"type": "string"},
+        "props": {"type": "array", "items" : {"$ref": "common.json#property_item"}}
+    }
+}
