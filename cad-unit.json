@@ -1,0 +1,61 @@
+{
+  "definitions": {
+    "uuid_identifier" : {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}$"
+    },
+    "measure_unit" : {
+      "type": "string",
+      "pattern": "^(mm|cm|m|inch|feet)$"
+    },
+    "vec_3" : {
+      "type": "array",
+      "items": { "type":"integer" }
+    },
+    "property_item" : {
+      "type" : "object",
+      "properties": {
+        "name": {"type": "string"},
+        "value": {"type": "integer"}
+      },
+      "required": ["name", "value"]
+    },
+    "file" : {
+      "type": "object",
+      "properties" : {
+        "format": {"type":"string"},
+        "storage_ref": {"$ref" : "#/definitions/uuid_identifier"}
+      },
+      "required":["format", "storage_ref"]
+    },
+    "material" : {
+      "type" : "object",
+      "properties" : {
+        "id": {"type" :"integer"},
+        "name": {"type": "string"},
+        "props": {"type": "array", "items" : {"$ref": "#/definitions/property_item"}}
+      }
+    },
+    "cad_metadata" : {
+      "type":"object",
+      "properties" : {
+        "units": {"$ref" : "#/definitions/measure_unit"},
+        "volume": {"type" : "integer"},
+        "bounding_box": {"$ref" : "#/definitions/vec_3"},
+        "materials" : {"type" : "array", "items" : { "$ref" : "#/definitions/material"}}
+      },
+      "required": ["units", "volume","bounding_box","materials"]
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://castor3d.com/cad-unit.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "properties": {
+    "projetc_id": {"$ref" : "#/definitions/uuid_identifier"},
+    "cad_file": { "$ref" : "#/definitions/file"},
+    "intermediate_cad_file": { "$ref" : "#/definitions/file"},
+    "metadata": { "$ref" : "#/definitions/cad_metadata"}
+  },
+  "required": ["projetc_id", "cad_file"]
+}
