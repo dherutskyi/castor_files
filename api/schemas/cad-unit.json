@@ -5,7 +5,7 @@
   "title": "The CAD Unit Schema",
   "properties": {
     "unit_id": {
-      "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/common.json#uuid_identifier"
+      "$ref": "https://raw.githubusercontent.com/dherutskyi/castor_files/master/api/schemas/common.json#/definitions/uuid_identifier"
     },
     "cad_file": {
       "$ref": "file.json"
