@@ -6,7 +6,7 @@
     "type" : "object",
     "properties" : {
         "format": {"type" : "string"},
-        "storage_ref": {"$ref" : "common.json#uuid_identifier"}
+        "storage_ref": {"$ref" : "common.json#/definitions/uuid_identifier"}
     },
     "required":["format", "storage_ref"]
 }
