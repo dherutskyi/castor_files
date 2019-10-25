@@ -1,0 +1,35 @@
+{
+	"CAD_ENGINE_ANALYSIS_REQUEST":
+	{
+		"partId": "03341be6-e4dc-4c44-82a2-cbff340b9e54",
+		"fileUrl":"https://raw.githubusercontent.com/dherutskyi/castor_files/master/cad_files/Planetary_gear.SLDASM"
+	}
+	,
+	"CAD_ENGINE_GENERATE_WALL_THICKNESS_REQUEST":
+	{
+		"partId": "03341be6-e4dc-4c44-82a2-cbff340b9e55", 
+		"stlUrl":"https://raw.githubusercontent.com/dherutskyi/castor_files/master/cad_files/Planetary_gear.sldasm.stl",
+		"prcUrl":"https://raw.githubusercontent.com/dherutskyi/castor_files/master/cad_files/Planetary_gear.sldasm.stl.prc"
+	}
+	,
+	"CAD_ENGINE_GENERATE_WALL_THICKNESS_REQUEST":
+	{
+	 	"partId": "03341be6-e4dc-4c44-82a2-cbff340b9e55",
+	 	"prcUrl":"https://raw.githubusercontent.com/dherutskyi/castor_files/master/cad_files/Planetary_gear.sldasm.stl.prc"
+	}
+	,
+	"CAD_ENGINE_GENERATE_WALL_THICKNESS_REQUEST":
+	{
+	 	"partId": "03341be6-e4dc-4c44-82a2-cbff340b9e55",
+	 	"stlUrl":"https://raw.githubusercontent.com/dherutskyi/castor_files/master/cad_files/Planetary_gear.sldasm.stl"
+	}
+	,
+	"COMPLEX":
+	{
+		"partId": "03341be6-e4dc-4c44-82a2-cbff340b9e55",
+		"fileUrl":"https://raw.githubusercontent.com/dherutskyi/castor_files/master/cad_files/Planetary_gear.SLDASM",
+		"stlUrl":"https://raw.githubusercontent.com/dherutskyi/castor_files/master/cad_files/Planetary_gear.sldasm.stl",
+		"prcUrl":"https://raw.githubusercontent.com/dherutskyi/castor_files/master/cad_files/Planetary_gear.sldasm.stl.prc"
+	}
+
+}
