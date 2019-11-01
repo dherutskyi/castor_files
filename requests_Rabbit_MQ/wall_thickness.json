@@ -18,6 +18,12 @@
 		"fileUrl":"https://gitlab.computools.org/castor/castor_files/raw/master/cad_files/body.stl"
 	}
 	,
+	"CAD_ENGINE_ANALYSIS_REQUEST":
+	{
+		"partId": "03341be6-e4dc-4c44-82a2-cbff340b9e64",
+		"fileUrl":"https://gitlab.computools.org/castor/castor_files/raw/master/cad_files/test_cads/bom/CylinderAndRec.STEP"
+	}
+	,
 	"CAD_ENGINE_GENERATE_WALL_THICKNESS_REQUEST":
 	{
 		"partId": "03341be6-e4dc-4c44-82a2-cbff340b9e55", 
